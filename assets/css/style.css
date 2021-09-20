@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -52,6 +51,7 @@ body {
   border-bottom-right-radius: 15px;
   background-color: #55d2ee;
   color: white;
+
 }  
 
 .saveBtn:hover {

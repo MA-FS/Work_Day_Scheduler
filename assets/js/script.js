@@ -4,8 +4,6 @@ const hourEL = $('.hour')
 const subjectEl = $('.subject')
 const rowEL = $('.row')
 
-
-
 // Display the current day with Moment.js
 currentDayEl.text(moment().format("dddd, MMMM Do"))
 
@@ -46,7 +44,7 @@ rowEL.on('click', '.saveBtn', function (event) {
     var scheduleText = saveBtn.prev().find('textarea').val()
 
     localStorage.setItem(timeText, scheduleText)
-    // Change icon to indicate save function
+    // Change icon to indicate save function performed
     saveBtn.addClass("fas")
 
     setTimeout(() => {
@@ -54,7 +52,7 @@ rowEL.on('click', '.saveBtn', function (event) {
     }, 500);
 })
 
-// Clear local storage and refresh the page when delete button is pressed
+// Clear local storage and refresh the page when clear all button is pressed
 rowEL.on('click', '.deleteBtn', function () {
 
     localStorage.clear()

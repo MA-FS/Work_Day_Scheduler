@@ -20,7 +20,7 @@ Functions include;
 
 ### **Result**
 
-![Work Day Scheduler](https://github.com/MA-FS/Coding_Quiz/blob/main/assets/images/work_day_scheduler_complete.png?raw=true)
+![Work Day Scheduler](https://github.com/MA-FS/Work_Day_Scheduler/blob/main/assets/images/work_day_scheduler_complete.png?raw=true)
 
 ### **GitHub Information**
 
